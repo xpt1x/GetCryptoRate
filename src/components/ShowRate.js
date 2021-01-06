@@ -56,10 +56,6 @@ export default function ShowRate(props) {
     };
   }, [errorMsg, time, loading]);
 
-  useEffect(() => {
-    console.log(errorMsg);
-  }, [errorMsg]);
-
   return (
     <div className={classes.paper}>
       <Typography variant="h1" component="h2">
